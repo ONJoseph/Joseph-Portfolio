@@ -1,70 +1,126 @@
-# Portfolio project
+![Image](https://img.shields.io/badge/Microverse-blueviolet)
+# Portfolio
+> First milestone in the process of creating my portfolio website:Build a personal portfolio site.
+> Understand how to parse a Figma design to create a UI.
+-![screenshot](/images/mobile_preview_v.1.0.png)
+-- ![screenshot](/images/mobile-preview-v2.png)
+- ![screenshot](/images/mobile-version-preview-v3.png)
+- ![screenshoot](/images/mobile-preview_v4.png)
+<br/>
+Things done so far in the project:
 
-> This is the responsive portfolio which can use for both mobile and computer . Having one header page , four pages of projects , one about section and contact page.
+#### 1. Build mobile skeleton
 
-## Portfolio
+* Parse a Figma design
+* Use Flexbox for positioning
+* Use images and backgrounds
 
-[Click here for portfolio](https://saifullah767.github.io/Portfolio_module/project_one.html)
+#### 2. Build mobile version
+
+* Use Grid alongside Flexbox for positioning
+* Add button hover and pressed effects
+
+#### 3. Build contact form
+
+* Pair program with a coding partner
+* Use HTML5 validation
+* Collect form data using Formspree
+
+#### 4. Build desktop version
+
+* Use media query for desktop view
+* Use desktop-specific classes to show/hide elements depending on view
+* Display desktop sections fully in viewport height
+
+### 4.5 Add effects (pair programming)
+
+* Use CSS transitions
+* Use CSS animations
+
+### 5. Deploy
+
+* Use GitHub pages to deploy website
 
 ## Built With
 
-- HTML
-- CSS
-- HTML5
-- Figma template
+- Major languages: HTML, CSS
+- Technologies used: Lighthouse, Webhint, Stylelint
+
+## Live Demo
+
+[Live Demo Link](https://onjoseph.github.io/Portfolio/)
+
+
+## :blue_book: Learning Objectives
+
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
+
+## :hammer: Built With
+
+- Major languages
+    - HTML
+    - CSS
+- Frameworks
+    - None
+- Technologies used
+    - Git 
+    - GitHub
+    - Lighthouse, Webhint, Stylelint
+<br/>
 
 ## Getting Started
 
-**You can clone the repo and enjoy the project.**
-**You can modify it by using media querry.**
+> This project can be run either from a local copy of the files (in it's directory structure) or by accessing it through a WEB server if it is installed as content for one.
 
-To get a local copy up and running follow these simple example steps.
+ 
+> To get a local copy up and running follow these simple steps:
 
-### Prerequisites
+1. Go to the [repository page](https://github.com/ArthurGC/portfolio-microverse).
+2. Press the "Code" button and copy the link.
+3. Clone it using git command `git clone <link>`.
 
-- Have some knowledge about HTML and CSS
-- Figma User Interface design templates
-- Be familiar with git commands
-- Basics understanding of Linters
-- structure of a portfolio website
-- Familiarity with flexbox
-- Knowledge of css grid
 
-### Setup
+### Usage
 
-- Run [git clone https://github.com/saifullah767/Portfolio_module.git]
+> **Just access the index.html file through the browser or access the webserver where it has been deployed through the browser**
 
-### Install
-
-- Run [npm install] to install all project dependencies
-
-### Run tests
-
-- Run [npx hintrc .] to test the markup or HTML
-- Run [npx stylelint "**/**.{css,scss}] to test the stylesheet
+<br/>
 
 ## Authors
 
-👤 **Saifullah**
+&#x1f464; **Joseph Ogbole**
 
-- GitHub: [@githubhandle](https://github.com/saifullah767)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/saifullah-khan-b0637b169)
+- GitHub: [@ONJoseph](https://github.com/ONJoseph)
+- Twitter: [@ONJCodes](https://twitter.com/ONJCodes)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/o-n-joseph-ba8425147/)
 
-👤 **Rafael**
+<br/>
 
-- GitHub: [@githubhandle](https://github.com/rega1237)
-
-## 🤝 Contributing
+## &#x1f91d; Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page<!--[issues page](../../issues/)-->.
+
+<br/>
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+> Give a &#x2B50; if you like this project!
+
+<br/>
 
 ## Acknowledgments
 
-- You can setup your portfolio
-- It will helpful to you
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+<br/>
+
+## &#x1F4DD; License
+
+This project is [MIT](./MIT.md) licensed.
