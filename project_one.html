@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="project_one.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Joseph portfolio</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="pageone">
+        <header class="header" id="pageone">
+          <nav class="logo">
+            <a href="#" class="logo1"> ONJ </a>
+            <a
+              class="menu"
+              id="menu"
+              href="javascript:void(0);"
+              onclick="menuBtn()"
+            >
+              <img src="./icons/Menu.png" alt="Menu button" />
+            </a>
+            <ul>
+              <li><a href="#portfolio" class="focusable">Portfolio</a></li>
+              <li><a href="#about" class="focusable">About</a></li>
+              <li><a href="#contact" class="focusable">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div id="myLinks">
+          <a href="javascript:void(0);" onclick="menuBtn()" class="close_btn" >
+            <img src="./images/Close_menu.svg"  alt="close botton" />
+          </a>
+
+          <a href="#portfolio" onclick="menuBtn()" class="por focusable"
+            >Portfolio</a
+          >
+          <a href="#about" onclick="menuBtn()" class="focusable">About</a>
+          <a href="#contact" onclick="menuBtn()" class="focusable">Contact</a>
+        </div>
+
+        <section class="content" id="blur">
+          <div class="content_set">
+            <div>
+              <h1 class="heading">
+                I'm Joseph <br />
+                Glad to see you!
+              </h1>
+            </div>
+            <div class="Social_link">
+              <p class="para_text">
+                I'm a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don't hestiate to contact me.
+              </p>
+
+              <span class="extra">
+                <a href="#" class="connect focusable"> LET'S CONNECT </a></span
+              >
+              <ul>
+                <li class="icons">
+                  <a href="#" class="social">
+                    <img
+                      src="icons/twitter.png"
+                      alt="Twitter"
+                      class="twitter"
+                    />
+                  </a>
+                </li>
+                <li class="icons">
+                  <a href="#" class="social">
+                    <img
+                      src="icons/Linkedin.png"
+                      alt="Linkedin"
+                      class="linkdein"
+                    />
+                  </a>
+                </li>
+                <li class="icons">
+                  <a href="#" class="social">
+                    <img src="icons/m.png" alt="M" class="m" />
+                  </a>
+                </li>
+                <li class="icons">
+                  <a href="#" class="social">
+                    <img src="icons/github.png" alt="Github" class="git" />
+                  </a>
+                </li>
+                <li class="icons">
+                  <a href="#" class="social">
+                    <img src="icons/peace.png" alt="peace" class="peace" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="popup">
+        <div class="pop-card">
+          <h2 class="title-one">Tonic</h2>
+
+          <a href="javascript:void(0);" class="close_pop">
+            <img
+              src="./images/closeIcon.png"
+              onclick="popupProject()"
+              alt="close botton"
+            />
+          </a>
+
+          <div class="canopy"></div>
+
+          <div class="pop-mobile"></div>
+
+          <div class="pop-websnap"></div>
+          <div class="pop-content">
+            <div class="pop-text"></div>
+
+            <div class="links-pop"></div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio"></section>
+      <br />
+      <br />
+
+      <section class="about" id="about">
+        <div class="about_side">
+          <h2 class="about_h">About</h2>
+          <h2 class="about_h">Myself</h2>
+          <p class="para">
+            Hello I'm a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don't
+            hestiate to contact me.
+          </p>
+          <a href="#" class="conn"> LET'S CONNECT </a>
+          <div class="icons">
+            <ul>
+              <li class="icon">
+                <a href="#">
+                  <img src="./icons/github.png" alt="GitHub icon" />
+                </a>
+              </li>
+              <li class="icon">
+                <a href="#">
+                  <img src="./icons/Linkedin.png" alt="LinkedIn icon" />
+                </a>
+              </li>
+              <li class="icon">
+                <a href="#">
+                  <img src="./icons/peace.png" alt="Peace icon" />
+                </a>
+              </li>
+              <li class="icon">
+                <a href="#">
+                  <img src="./icons/twitter.png" alt="Twitter icon" />
+                </a>
+              </li>
+              <li class="icon">
+                <a href="#"> <img src="./icons/m.png" alt="Medium icon" /> </a>
+              </li>
+            </ul>
+          </div>
+          <a href="#" class="pro"> Get my resume </a>
+        </div>
+        <div class="about_right">
+          <ul>
+            <li>
+              Langguages <img class="iconimg" src="./icons/Union.png" alt="" />
+
+              <ul class="lang">
+                <li class="ski one"><span class="sk"> JavaScript</span></li>
+                <li class="ski two"><span class="sk sk1"> HTML </span></li>
+                <li class="ski three"><span class="sk sk1"> CSS </span></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Frameworks <img class="iconimg" src="./icons/Iconr.png" alt="" />
+            </li>
+          </ul>
+          <hr />
+          <ul>
+            <li>
+              Skills <img class="iconimg" src="./icons/Iconr.png" alt="" />
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="web">
+          <h2>Contact me</h2>
+          <p class="contact_para" >
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I'd love
+            to help with it
+          </p>
+          <!-- Change the Action to your form -->
+          <form action="https://formspree.io/f/xdobwonl" method="post" class="contact-form">
+            <input
+              type="text"
+              name="user_name"
+              id="name"
+              placeholder="Enter your name"
+              maxlength="30"
+              required
+            />
+            <input
+              type="email"
+              class="contactme"
+              name="user_email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <textarea
+            name="message"
+            id="textarea"
+            maxlength="500"
+            cols="30"
+              rows="5"
+              required
+              placeholder="Write your message here"
+            ></textarea>
+            <button type="submit" class="button focusable">Get It touch</button>
+            <p class="validate" > Email must in Lower case </p>
+          </form>
+        </div>
+      </section>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
