@@ -48,7 +48,7 @@ Things done so far in the project:
 
 ## Live Demo
 
-[Live Demo Link](https://onjoseph.github.io/Portfolio/)
+[Live Demo Link](https://onjoseph.github.io/Joseph-Portfolio/)
 
 
 ## :blue_book: Learning Objectives
@@ -78,7 +78,7 @@ Things done so far in the project:
  
 > To get a local copy up and running follow these simple steps:
 
-1. Go to the [repository page](https://github.com/ArthurGC/portfolio-microverse).
+1. Go to the [repository page](https://github.com/ONJoseph/Joseph-Portfolio.git).
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <link>`.
 
