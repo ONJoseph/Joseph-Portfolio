@@ -95,7 +95,7 @@ Things done so far in the project:
 
 - GitHub: [@ONJoseph](https://github.com/ONJoseph)
 - Twitter: [@ONJCodes](https://twitter.com/ONJCodes)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/o-n-joseph)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/o-n-joseph)
 
 <br/>
 
